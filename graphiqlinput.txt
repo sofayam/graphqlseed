@@ -1,0 +1,38 @@
+
+###### Listing
+
+{
+  customers {
+    name
+  }
+}
+
+{ customer (id: "1") {
+  id,
+  name
+}}
+
+####### Mutating
+
+mutation {
+  addCustomer(age: 100, 
+    name: "boop", 
+    email: "foo@bar") {
+    id,
+    name,
+      email
+  }
+}
+
+
+mutation {
+ deleteCustomer(id: "4") {
+   id
+ }
+}
+
+mutation {
+ editCustomer(id: "2", age: 303) {
+   id
+ }
+}
