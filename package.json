@@ -5,12 +5,12 @@
   "main": "server.js",
   "scripts": {
     "dev:server": "nodemon server.js",
-    "json:server": "json-server --watch data.json" 
+    "json:server": "json-server --watch data.json"
   },
   "author": "Mark Andrew <mark.andrew@gmail.com> (https://github.com/sofayam)",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.19.0",
     "express": "^4.16.2",
     "express-graphql": "^0.6.11",
     "graphql": "^0.11.7",
